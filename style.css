@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4faff;
+    color: #183153;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+}
+
+.form,
+.img {
+    display: inline-block;
+    width: 50%;
+    height: 100vh;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h3{
+    padding: 10px 20px 0px 20px;
+}
+#email,#password{
+    height: 3vw;
+    width: 25vw;
+    font-size: large;
+    padding-left: 20px;
+    margin: 0px 10px 10px 10px;
+    border: 2px solid;
+    border-radius: 12px;
+}
+h1{
+    font-weight: bolder;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 25vw;
+    background-color: #183153;
+    color: #f4faff;
+    margin: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 5px black;
+}
+button:hover{
+    background-color: #173d71;
+}
+.form a{
+    display: block;
+    text-align: right;
+}
